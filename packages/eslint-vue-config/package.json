@@ -1,6 +1,6 @@
 {
   "name": "@kery-map-eslint/vue",
-  "version": "1.0.1-alpha.1",
+  "version": "1.0.1-alpha.2",
   "main": "index.js",
   "repository": "https://github.com/kery-map/kery-map-eslint.git",
   "author": "DZG-MELODY <dongzhigang531@gmail.com>",
