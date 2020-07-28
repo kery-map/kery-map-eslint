@@ -1,5 +1,5 @@
 {
-  "name": "@kery-map-eslint/javascript",
+  "name": "@kery-map/eslint-config-javascript",
   "version": "1.0.1-alpha.3",
   "main": "index.js",
   "repository": "https://github.com/kery-map/kery-map-eslint.git",
@@ -16,5 +16,5 @@
   "peerDependencies": {
     "eslint": "^7.5.0"
   },
-  "gitHead": "566a214e79cde1507f8d59676c5efd6b60e547c4"
+  "gitHead": "501c21dca8a28b3742def1dd276cc6c3b9051438"
 }
