@@ -5,6 +5,9 @@
   "repository": "https://github.com/kery-map/kery-map-eslint.git",
   "author": "DZG-MELODY <dongzhigang531@gmail.com>",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "babel-eslint": "^10.1.0",
     "eslint-config-airbnb-base": "^14.2.0",
