@@ -15,9 +15,9 @@
   "scripts": {
     "start": "yarn && lerna bootstrap",
     "clean": "lerna clean",
-    "publish:prepare": "lerna publish --conventional-commits --conventional-prerelease",
-    "publish:release": "lerna publish --conventional-commits --conventional-graduate",
-    "publish:bump": "lerna publish from-git --conventional-commits "
+    "publish:prepare": "lerna publish --conventional-commits --conventional-prerelease --access public",
+    "publish:release": "lerna publish --conventional-commits --conventional-graduate --access public",
+    "publish:bump": "lerna publish from-git --conventional-commits --access public"
   },
   "devDependencies": {
     "eslint": "^7.5.0",
