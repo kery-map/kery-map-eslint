@@ -2,7 +2,6 @@
   "name": "@kery-map-eslint/react",
   "version": "1.0.1-alpha.0",
   "main": "index.js",
-  "private": true,
   "repository": "https://github.com/kery-map/kery-map-eslint.git",
   "author": "DZG-MELODY <dongzhigang531@gmail.com>",
   "license": "MIT"
