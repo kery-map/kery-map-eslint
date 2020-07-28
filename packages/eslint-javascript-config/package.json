@@ -1,6 +1,6 @@
 {
   "name": "@kery-map-eslint/javascript",
-  "version": "1.0.1-alpha.0",
+  "version": "1.0.1-alpha.1",
   "main": "index.js",
   "repository": "https://github.com/kery-map/kery-map-eslint.git",
   "author": "DZG-MELODY <dongzhigang531@gmail.com>",
