@@ -1,0 +1,16 @@
+{
+  "name": "@kery-map-eslint/javascript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kery-map/kery-map-eslint.git",
+  "author": "DZG-MELODY <dongzhigang531@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "2.22.0",
+    "babel-eslint": "^10.1.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.5.0"
+  }
+}

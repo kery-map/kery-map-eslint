@@ -1,0 +1,29 @@
+{
+  "name": "kery-map-eslint",
+  "version": "1.0.0",
+  "description": "eslint config for kery-map",
+  "main": "index.js",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "repository": "https://github.com/kery-map/kery-map-eslint.git",
+  "author": "DZG-MELODY <dongzhigang531@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn && lerna bootstrap",
+    "clean": "lerna clean",
+    "publish:prepare": "lerna publish --conventional-commits --conventional-prerelease",
+    "publish:release": "lerna publish --conventional-commits --conventional-graduate",
+    "publish:bump": "lerna publish from-git --conventional-commits "
+  },
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "lerna": "^3.22.1"
+  },
+  "peerDependencies": {
+    "eslint": "^7.5.0"
+  }
+}
