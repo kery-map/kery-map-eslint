@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "eslint config for kery-map",
   "main": "index.js",
+  "private": true,
   "workspaces": {
     "packages": [
       "packages/*"
@@ -14,7 +15,7 @@
   "scripts": {
     "start": "yarn && lerna bootstrap",
     "clean": "lerna clean",
-    "publish:prepare": "lerna publish --conventional-prerelease",
+    "publish:prepare": "lerna publish --conventional-commits --conventional-prerelease",
     "publish:release": "lerna publish --conventional-commits --conventional-graduate",
     "publish:bump": "lerna publish from-git --conventional-commits "
   },

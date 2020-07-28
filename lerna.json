@@ -6,10 +6,11 @@
     "run": {
       "npmClient": "yarn"
     },
+    "publish": {
+      "registry": "https://registry.npmjs.org/"
+    },
     "version": {
-      "allowBranch": [
-        "dev"
-      ]
+      "allowBranch": ["dev"]
     }
   },
   "changelogPreset": "angular"
