@@ -1,6 +1,6 @@
 {
   "name": "@kery-map-eslint/typescript",
-  "version": "1.0.1-alpha.0",
+  "version": "1.0.1-alpha.1",
   "main": "index.js",
   "repository": "https://github.com/kery-map/kery-map-eslint.git",
   "author": "DZG-MELODY <dongzhigang531@gmail.com>",
@@ -12,5 +12,5 @@
   "peerDependencies": {
     "eslint": "^7.5.0"
   },
-  "gitHead": "ed7c03e0d3e9e887915f4d2d1b499c21ff634adf"
+  "gitHead": "1f6d0529f9a19d267507c1565de818f8e1dc8026"
 }
